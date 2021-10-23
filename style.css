@@ -1,0 +1,70 @@
+.logo {
+    height: 30px;
+}
+.header {
+    display: flex;
+     justify-content: space-between;
+     /* border: 1px red solid; */
+     align-items: center;
+
+}
+.navbar {
+    display: inline-flex;
+    list-style: none;
+}
+.navbar a {
+text-decoration: none;
+}
+
+.navbar li {
+margin: 1em;
+}
+
+.slogan {
+    border: 1px red solid;
+    text-align: center;
+}
+
+.description {
+    display: flex;
+}
+
+.services {
+
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr ;
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    border-radius:5%;
+    color: white;
+}
+
+.patients-card {
+
+    background-color: #00ccb1;
+}
+.doctors-card {
+    background-color:  #3d83df; 
+}
+.clinics-card {
+   background-color: #1b2734;
+}
+
+.partners-section {
+    margin-top: 20px;
+}
+.partners {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+}
+.links {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+
+
